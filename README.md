@@ -6,7 +6,7 @@ Other improvements to the existing widgets include:
 - ability to invert color of the comic to allow the widget to work for everyone prefering dark mode
 
 ## Screenshots
-![xkcd-ultimate.widget-Screenshot](./xkcd-ultimate-widget.png)
+![xkcd-ultimate.widget-Screenshot](./screenshot.png)
 
 ## Instructions
 Download the **xkcd-ultimate** folder and place it in Übersicht's widgets folder
