@@ -1,15 +1,12 @@
 # xkcd-ultimate.widget
-Responsive widget for Übersicht to show the most recent or a random XKCD comic strip on your desktop
-
-## Screenshots
-![xkcd-ultimate.widget-Screenshot](./xkcd-ultimate-screenshot.png)
-
-## Description
 A responsive widget made for [Übersicht](http://tracesof.net/uebersicht/) to show either the latest or a random xkcd comic including its alt text on your desktop. This is the ultimate XKCD widget because it fixes the bugs in the existing ones by improving the parsing of the JSON and adding exception handling to handle connection drops and the macOS waking from sleep. The widget will only update the comic strip if a new comic was successfully loaded and parsed.
 
 Other improvements to the existing widgets include:
 - responsive design that adjusts the container and alt text to the comic's size
 - ability to invert color of the comic to allow the widget to work for everyone prefering dark mode
+
+## Screenshots
+![xkcd-ultimate.widget-Screenshot](./xkcd-ultimate-widget.png)
 
 ## Instructions
 Download the **xkcd-ultimate** folder and place it in Übersicht's widgets folder
