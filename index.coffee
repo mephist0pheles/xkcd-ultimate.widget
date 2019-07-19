@@ -1,5 +1,5 @@
 # Uncomment this command to always show the latest comic strip
-# command: "curl --silent https://xkcd.com/221/info.0.json"
+# command: "curl --silent https://xkcd.com/info.0.json"
 
 # Use this command to load a random comic strip from the past
 command: "last=$(python -c 'import urllib, json, sys; print(json.loads(urllib.urlopen(\"http://xkcd.com/info.0.json\").read())[\"num\"])') && newid=$((RANDOM%$last+1)) && curl --silent https://xkcd.com/$newid/info.0.json"
